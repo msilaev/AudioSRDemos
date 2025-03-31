@@ -33,11 +33,9 @@ audio_examples = {
     "p376_037": base_path_376
 }
 
-
-
 # Open README.md and write the table
 with open("README.md", "w", encoding="utf-8") as f:
-    f.write("# Listening test" + "|\n")
+    f.write("# Listening test" + "\n")
     # Listening test
 
     head_str = f"| **Model** "
@@ -70,6 +68,20 @@ with open("README.md", "w", encoding="utf-8") as f:
 
         f.write(audio_str + "|\n")
 
+with open("README.md", "a", encoding="utf-8") as f:
 
+    #base_path = "data/fig1/p376_001_4.wav"
+    #audio_name = "p376_001"
+    f.write("# Fig.1 audio" + "\n")
+
+    f.write(f"| **Model** | **{audio_name}** |\n")
+    # str = "|-----------------------------------------------------------------"
+    f.write("|-----------|-----------------------------------------------------------------|\n")
+    f.write(f"| **4 kHz** | <audio controls><source src=\"data/fig1/p376_001_4.wav\" type=\"audio/wav\"></audio> |\n")
+    f.write(f"| **16 kHz** | <audio controls><source src=\"data/fig1/p376_001_16.wav\" type=\"audio/wav\"></audio> |\n")
+    f.write(f"| **48 kHz** | <audio controls><source src=\"data/fig1/p376_001_48.wav\" type=\"audio/wav\"></audio> |\n")
+
+
+    # delimeter_str = delimeter_str + str
 
 print("README.md has been updated successfully!")
