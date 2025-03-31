@@ -35,7 +35,7 @@ audio_examples = {
 
 # Open README.md and write the table
 with open("README.md", "w", encoding="utf-8") as f:
-    f.write("# Listening test" + "\n")
+    #f.write("# Listening test" + "\n")
     # Listening test
 
     head_str = f"| **Model** "
@@ -72,7 +72,7 @@ with open("README.md", "a", encoding="utf-8") as f:
 
     #base_path = "data/fig1/p376_001_4.wav"
     #audio_name = "p376_001"
-    f.write("# Fig.1 audio" + "\n")
+    #f.write("# Fig.1 audio" + "\n")
 
     f.write(f"| **Model** | **{audio_name}** |\n")
     # str = "|-----------------------------------------------------------------"
