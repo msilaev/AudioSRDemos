@@ -46,20 +46,25 @@ with open("README.md", "w", encoding="utf-8") as f:
         #f.write("|-----------|-----------------------------------------------------------------|\n")
         delimeter_str = delimeter_str + str
 
-
     f.write(head_str + "|\n")
     f.write(delimeter_str + "|\n")
-    for audio_name, base_path in audio_examples.items():
-        str = f"| **{audio_name}** "
-        head_str = head_str + str
 
-        #f.write(f"| **Model** | **{audio_name}** |\n")
-        str = "|-----------------------------------------------------------------"
-        #f.write("|-----------|-----------------------------------------------------------------|\n")
-        delimeter_str = delimeter_str + str
+    for model_name, file_suffix in models.items():
+        audio_str = f"| **{model_name}** "
+        #f.write(f"| **{model_name}** ")
+        #f.write(f"| **{model_name}** | <audio controls><source src=\"{base_path}{file_suffix}.wav\" type=\"audio/wav\"></audio> |\n")
 
-        for model_name, file_suffix in models.items():
-            f.write(
-                f"| **{model_name}** | <audio controls><source src=\"{base_path}{file_suffix}.wav\" type=\"audio/wav\"></audio> |\n")
+        for audio_name, base_path in audio_examples.items():
+            str = f"| <audio controls><source src=\"{base_path}{file_suffix}.wav\" type=\"audio/wav\"></audio> "
+            audio_str = audio_str + str
+
+            #f.write(f"| **Model** | **{audio_name}** |\n")
+            #str = "|-----------------------------------------------------------------"
+            #f.write("|-----------|-----------------------------------------------------------------|\n")
+            #delimeter_str = delimeter_str + str
+
+        f.write(audio_str + "|\n")
+
+
 
 print("README.md has been updated successfully!")
