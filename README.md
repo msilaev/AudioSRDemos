@@ -51,7 +51,7 @@
 | **Upsampling Task** | **WB** | **MU-GAN Alt 5** | **AudioUnet** | **NB** |
 |---------------------|--------|------------|---------------|--------|
 | **4 → 16 kHz**       | <audio controls><source src="data/Fig4_7/p360_225.wav.hr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_225.wav.r4.gan_alt_5_multispeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_225.wav.r4.audiounet_multispeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_225.wav.r4.lr.wav" type="audio/wav"></audio> |
-| **16 → 48 kHz**      | <audio controls><source src="data/Fig4_7/p360_011.wav.hr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_011.wav.r3.gan_alt_5_multispeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_011.wav.r3.audiounet_multispeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_011.wav.r3.lr.wav" type="audio/wav"></audio> |
+| **16 → 48 kHz**      | <audio controls><source src="data/Fig4_7/p360_011.wav.hr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_011.wav.r4.gan_alt_5_multispeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_011.wav.r3.audiounet_multispeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_7/p360_011.wav.r3.lr.wav" type="audio/wav"></audio> |
 
 ---
 <br><br><br>
