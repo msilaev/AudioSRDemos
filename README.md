@@ -39,8 +39,8 @@
 
 | **Upsampling Task** | **WB** | **MU-GAN** | **AudioUnet** | **NB** |
 |---------------------|--------|------------|---------------|--------|
-| **4 → 16 kHz**       | <audio controls><source src="data/Fig4_3/p225_356.wav.hr16000.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r4.gan_singlespeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_355.wav.r4.audiounet_singlespeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r4.lr.wav" type="audio/wav"></audio> |
-| **16 → 48 kHz**      | <audio controls><source src="data/Fig4_3/p225_356.wav.hr48000.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r3.gan_singlespeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_355.wav.r3.audiounet_singlespeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r3.lr.wav" type="audio/wav"></audio> |
+| **4 → 16 kHz**       | <audio controls><source src="data/Fig4_3/p225_356.wav.hr16000.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r4.gan_singlespeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r4.audiounet_singlespeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r4.lr.wav" type="audio/wav"></audio> |
+| **16 → 48 kHz**      | <audio controls><source src="data/Fig4_3/p225_356.wav.hr48000.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r3.gan_singlespeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r3.audiounet_singlespeaker.pr.wav" type="audio/wav"></audio> | <audio controls><source src="data/Fig4_3/p225_356.wav.r3.lr.wav" type="audio/wav"></audio> |
 
 ---
 <br><br><br>
