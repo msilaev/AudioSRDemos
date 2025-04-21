@@ -56,7 +56,7 @@
 <br><br><br>
 
 
-## 🔊 Fig. 4.8: MU-GAN Variants Comparison by Task
+# 🔊 Fig. 4.8: MU-GAN Variants Comparison 
 
 | **Upsampling Task** | **MU-GAN Alt 1** | **MU-GAN Alt 5** |
 |---------------------|------------------|------------------|
